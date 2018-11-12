@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainLayout"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputText"
+        android:inputType="number"
+        android:text="0"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:id="@+id/resultText"
+        android:padding="5dp"
+        android:text=""/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:id="@+id/farenheitBtn"
+        android:layout_marginBottom="10dp"
+        android:text="Get Farenheit"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:id="@+id/kelvinBtn"
+        android:layout_marginBottom="10dp"
+        android:text="Get Kelvin"/>
+</LinearLayout>
